@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VFM-QV-gmu">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VFM-QV-gmu">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -17,18 +18,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="fkZ-r0-nGE">
-                                <rect key="frame" x="10" y="98" width="394" height="705"/>
+                                <rect key="frame" x="10" y="102" width="394" height="701"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xUi-hD-NQW" customClass="FSCalendar">
-                                        <rect key="frame" x="0.0" y="0.0" width="394" height="301.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="394" height="299.5"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="bRW-HL-Hit">
-                                        <rect key="frame" x="0.0" y="311.5" width="394" height="361.5"/>
+                                        <rect key="frame" x="0.0" y="309.5" width="394" height="359.5"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PlanTableViewCell" rowHeight="43" id="OtU-Q1-mzF">
-                                                <rect key="frame" x="0.0" y="24.5" width="394" height="43"/>
+                                                <rect key="frame" x="0.0" y="50" width="394" height="43"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="OtU-Q1-mzF" id="dIv-H3-x4m">
                                                     <rect key="frame" x="0.0" y="0.0" width="394" height="43"/>
@@ -86,7 +87,7 @@
                                         </prototypes>
                                     </tableView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UwP-yQ-dfh">
-                                        <rect key="frame" x="0.0" y="683" width="394" height="22"/>
+                                        <rect key="frame" x="0.0" y="679" width="394" height="22"/>
                                         <state key="normal" title=" Add Plan" image="plus.circle" catalog="system">
                                             <color key="titleColor" systemColor="linkColor"/>
                                         </state>
@@ -132,7 +133,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="b4v-Pd-mBl">
-                                <rect key="frame" x="8" y="96" width="398" height="709"/>
+                                <rect key="frame" x="8" y="100" width="398" height="705"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="XQd-iz-VTk">
                                         <rect key="frame" x="0.0" y="0.0" width="398" height="40"/>
@@ -170,21 +171,21 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="RBc-9H-xsA">
-                                        <rect key="frame" x="0.0" y="76.5" width="398" height="131"/>
+                                        <rect key="frame" x="0.0" y="76.5" width="398" height="127"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sma-Yx-y9r">
-                                                <rect key="frame" x="0.0" y="0.0" width="61" height="131"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="61" height="127"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZpD-jL-g6z">
-                                                <rect key="frame" x="69" y="0.0" width="329" height="131"/>
+                                                <rect key="frame" x="69" y="0.0" width="329" height="127"/>
                                             </pickerView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="eOX-y2-iVn">
-                                        <rect key="frame" x="0.0" y="215.5" width="398" height="463.5"/>
+                                        <rect key="frame" x="0.0" y="211.5" width="398" height="463.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" horizontalCompressionResistancePriority="751" text="Content" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rrB-mw-CNF">
                                                 <rect key="frame" x="0.0" y="0.0" width="61" height="463.5"/>
@@ -208,7 +209,7 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U77-uT-uWf">
-                                        <rect key="frame" x="0.0" y="687" width="398" height="22"/>
+                                        <rect key="frame" x="0.0" y="683" width="398" height="22"/>
                                         <state key="normal" title="Undone" image="checkmark.square" catalog="system">
                                             <color key="titleColor" systemColor="linkColor"/>
                                         </state>
@@ -245,7 +246,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zYg-gR-VPN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1587" y="-689"/>
+            <point key="canvasLocation" x="1684" y="-689"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="sOb-e1-KvU">
@@ -306,10 +307,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Sf8-jQ-bqd">
-                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <rect key="frame" x="0.0" y="92" width="414" height="770"/>
                             </mapView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="gmr-oa-fXj">
-                                <rect key="frame" x="8" y="96" width="398" height="32"/>
+                                <rect key="frame" x="8" y="100" width="398" height="32"/>
                                 <segments>
                                     <segment title="Standard"/>
                                     <segment title="Hybrid"/>
@@ -347,13 +348,13 @@
         <segue reference="KTQ-qT-bh0"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="calendar.badge.clock" catalog="system" width="128" height="108"/>
+        <image name="calendar.badge.clock" catalog="system" width="128" height="109"/>
         <image name="checkmark.square" catalog="system" width="128" height="114"/>
         <image name="checkmark.square.fill" catalog="system" width="128" height="114"/>
-        <image name="location" catalog="system" width="128" height="121"/>
-        <image name="map" catalog="system" width="128" height="110"/>
-        <image name="plus.circle" catalog="system" width="32" height="32"/>
-        <image name="plus.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="location" catalog="system" width="128" height="119"/>
+        <image name="map" catalog="system" width="128" height="112"/>
+        <image name="plus.circle" catalog="system" width="128" height="123"/>
+        <image name="plus.circle.fill" catalog="system" width="128" height="123"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
